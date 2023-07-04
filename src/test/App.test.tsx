@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
+// @ts-nocheck
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import App from '@/App';
 import { fetchBirthdays } from '@/api/wikipedia';
