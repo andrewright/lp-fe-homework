@@ -14,4 +14,11 @@ export default defineConfig({
     },
   },
   plugins: [react(), mkcert()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.ts',
+    includeSource: ["src/test**/*.{ts, tsx}"],
+    css: true,
+  },
 })

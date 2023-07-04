@@ -1,0 +1,6 @@
+# Optional npm cache directory
+.npm
+# Coverage directory used by tools like istanbul
+coverage
+# Project build
+dist/
